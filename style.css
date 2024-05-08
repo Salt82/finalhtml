@@ -1,17 +1,20 @@
 .ts{
+    text-align: left;
     background-color: #06347F;
-    
+    outline: 10px solid #06347F;
     border: 10px dotted #FFC800 ;
     padding: 1rem;
-    max-width: 400px;
+    max-width: 300px;
     border-radius: 10px;
+    margin-block: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    
 }
 
 
-.ts #str{
-    justify-content: center;
-    padding-left: 3rem;
-}
+
 
 #sh{
     color: white;
@@ -39,13 +42,16 @@ h1{
 
 
 .rs{
-    
-    max-width: 400px;
+    text-align: left;
+    max-width: 300px;
     padding: 1rem;
-    
+    outline: 10px solid #06347F;
     border-radius: 10px;
     background-color: #06347F;
     border: 10px dotted #FFC800 ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
     
 }
 
@@ -61,14 +67,11 @@ h1{
     max-width: 100%;
 }
 
-.rs #rst{
-    justify-content: center;
-    padding-left: 3rem;
-}
+
 
 .logo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
+    font-size: small;
     background-color: black;
     
 
@@ -85,6 +88,7 @@ h1{
     animation-iteration-count: infinite;
     width: 100%;
     justify-content: center;
+
     
 }
 
@@ -152,18 +156,20 @@ form
 
 
 .chro{
+    text-align: left;
     background-color: #06347F;
-    
+    outline: 10px solid #06347F;
     border: 10px dotted #FFC800 ;
     padding: 1rem;
-    max-width: 400px;
+    max-width: 300px;
     border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    
 }
 
-#chroifr{
-    padding-left: 2rem;
 
-}
 
 #chrotitle{
     color: white;
@@ -175,18 +181,18 @@ form
 
 
 .transformers{
+    text-align: left;
     background-color: #06347F;
-    
+    outline: 10px solid #06347F;
     border: 10px dotted #FFC800 ;
     padding: 1rem;
-    max-width: 400px;
+    max-width: 300px;
     border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
-#transformerstr{
-    padding-left: 2rem;
-
-}
 
 #transformerstitle{
     color: white;
@@ -211,6 +217,16 @@ body{
 
 .content{
     padding-left: 50%;
+}
+
+
+
+form{
+    border: 5px dotted #FFC800;
+    background-color: #06347F;
+    max-width: auto;
+    color: white;
+    
 }
 
 
