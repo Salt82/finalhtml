@@ -222,7 +222,7 @@ body{
 
 
 form{
-    border: 5px dotted #FFC800;
+    border: 5px solid #FFC800;
     background-color: #06347F;
     max-width: auto;
     color: white;
